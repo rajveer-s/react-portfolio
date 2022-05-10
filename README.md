@@ -1,4 +1,4 @@
 # Colorless Portfolio
 
-# Figma Prototype
+## Figma Prototype :
 ![screenshot](./public/Untitled%20%E2%80%93%20Figma.png)
