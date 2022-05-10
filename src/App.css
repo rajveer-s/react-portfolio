@@ -93,6 +93,25 @@ h5 {
 /* Navbar css End */
 
 
+/* About me page  */
+
+#about {
+  margin: 4rem 15%;
+}
+
+#aboutPic {
+  margin: 2rem;
+}
+
+#aboutPic img {
+  height: 15rem;
+  width: 16rem;
+}
+
+/* About me page End */
+
+
+
 
 
 
