@@ -110,6 +110,30 @@ h5 {
 
 /* About me page End */
 
+/* Skills */
+#skills {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+}
+
+#icons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 10rem;
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+#icons:hover{
+  filter: none;
+}
+
+/* skills end  */
+
+
 
 
 
