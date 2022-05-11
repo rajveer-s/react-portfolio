@@ -5,6 +5,7 @@ import About from './pages/about/About';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Skills from './pages/skills/Skills';
 import Contact from './pages/contact/Contact';
+import Work from './pages/work/Work';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
             element={<Skills />} />
           <Route path='/contact'
             element={<Contact />} />
+             <Route path='/work'
+            element={<Work />} />
         </Routes>
         <Footer />
       </Router>
