@@ -1,8 +1,8 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import About from './pages/about/About';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Skills from './pages/skills/Skills';
 import Contact from './pages/contact/Contact';
 import Work from './pages/work/Work';

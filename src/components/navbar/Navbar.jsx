@@ -8,7 +8,6 @@ const Navbar = () => {
           </div>
             <h5 id="headerH5">Web Developer</h5> 
             <ul>
-                <a href="#navbar">Home</a>
                 <a href="/about">About</a>
                 <a href="/skills">Skills</a>
                 <a href="/work">Work</a>
