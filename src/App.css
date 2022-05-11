@@ -109,6 +109,16 @@ h5 {
   width: 16rem;
 }
 
+#resumeDiv {
+  text-align: center;
+  padding: 4rem 0 1.5rem 0;
+}
+
+#resumeDiv a {
+  text-decoration: none;
+  color: grey;
+}
+
 /* About me page End */
 
 /* Skills */
