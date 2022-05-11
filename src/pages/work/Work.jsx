@@ -21,7 +21,6 @@ const Work = () => {
                 <img src={project.img} className="card__image" alt="nature background" />
                 <div className="card__overlay">
                   <div className="card__header">
-                    <img className="card__thumb" src="http://www.jeremymcquown.com/wp-content/uploads/2012/05/Go-Outside-Mark-02.png" alt="website logo" />
                     <div className="card__header-text">
                     </div>
                   </div>
