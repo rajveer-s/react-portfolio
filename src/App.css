@@ -1,3 +1,4 @@
+/* Google fonts imported  */
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Cinzel&display=swap');
 
 .App {
@@ -127,12 +128,40 @@ h5 {
   filter: grayscale(100%);
 }
 
-#icons:hover{
+#icons:hover {
   filter: none;
 }
 
 /* skills end  */
 
+
+/* Contact  */
+
+#contact {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 15px;
+  opacity: 0.6;
+  letter-spacing: 6px;
+  padding-bottom: 80px;
+}
+
+#contact a {
+  color: black;
+  padding: 0 3rem;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: line-through;
+}
+
+
+/* Contact end  */
 
 
 
