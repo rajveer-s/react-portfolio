@@ -31,8 +31,8 @@
 ---
 ## Links:
 
-- [Github Link]()
-- [Deployed link]()
+- [Github Link](https://github.com/rajveer-s/react-portfolio)
+- [Deployed link](https://agile-badlands-41420.herokuapp.com/)
 
 ---
 ## Screenshot
