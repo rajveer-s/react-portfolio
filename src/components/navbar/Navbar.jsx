@@ -1,5 +1,7 @@
 import React from 'react'
 
+// todo - import links from react-router-dom and replace hrefs with links
+
 const Navbar = () => {
   return (
     <div id="navbar">
