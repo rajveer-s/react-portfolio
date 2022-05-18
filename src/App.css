@@ -68,7 +68,7 @@ h5 {
 
 #navbar ul a {
   text-decoration: none;
-  color: black;
+  color: grey;
   font-family: 'Bad Script', 'cursive';
 }
 
@@ -86,7 +86,7 @@ h5 {
   align-items: center;
   font-size: 20px;
   text-decoration: none;
-  border: 1px solid black;
+  border: 1px solid grey;
   margin-top: 3rem;
   padding: 1.3rem;
 }
@@ -359,7 +359,7 @@ h5 {
 hr {
   width: 80%;
   height: 3px;
-  background-color: black;
+  background-color: grey;
   margin-bottom: 40px;
   margin-right: auto;
   margin-left: auto;
