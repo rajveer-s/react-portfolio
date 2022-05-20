@@ -125,13 +125,14 @@ h5 {
 #skills {
   display: flex;
   flex-direction: column;
-  margin: 3rem auto;
+  margin: 3rem 2rem;
 }
 
 #icons {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  column-gap: 15rem;
   align-items: center;
   font-size: 10rem;
   width: 100%;
