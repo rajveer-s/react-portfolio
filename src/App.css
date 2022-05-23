@@ -132,7 +132,7 @@ h5 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  column-gap: 15rem;
+  column-gap: 8rem;
   align-items: center;
   font-size: 10rem;
   width: 100%;
@@ -141,6 +141,13 @@ h5 {
 
 #icons:hover {
   filter: none;
+}
+
+@media only screen and (max-width: 640px) {
+  #icons {
+    font-size: 5rem;
+    column-gap: 3rem;
+  }
 }
 
 /* skills end  */
