@@ -1,7 +1,6 @@
 import React from 'react'
 import DarkMode from '../darkmode/Darkmode'
-
-// todo - create a type writing effect for h5
+import HeaderEffect from '../typewriting/Typerwriting'
 
 const Navbar = () => {
   return (
@@ -10,7 +9,7 @@ const Navbar = () => {
         <div id="headerName">
           <h1>Rajveer Singh</h1>
           </div>
-            <h5 id="headerH5">Web Developer</h5> 
+            <HeaderEffect /> 
             <ul>
                 <a href="/">About</a>
                 <a href="/skills">Skills</a>
