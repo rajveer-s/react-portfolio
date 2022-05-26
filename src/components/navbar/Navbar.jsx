@@ -1,7 +1,7 @@
 import React from 'react'
 import DarkMode from '../darkmode/Darkmode'
 
-// todo - import links from react-router-dom and replace hrefs with links
+// todo - create a type writing effect for h5
 
 const Navbar = () => {
   return (
