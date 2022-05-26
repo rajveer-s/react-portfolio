@@ -33,6 +33,8 @@ const Work = () => {
           <a href={project.gitlink} target="_blank"><button class="btn"><span>Github Link</span></button></a>
           <a href={project.deplink} target="_blank"><button class="btn"><span>Deployed Link</span></button></a>
           </div>
+
+          //! CREATE A BUTTTON WHICH LEADS TO ALL PROJECTS ON GITHUB
           <hr />
           </>
         </div>
