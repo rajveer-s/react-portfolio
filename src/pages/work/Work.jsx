@@ -34,11 +34,13 @@ const Work = () => {
           <a href={project.deplink} target="_blank"><button class="btn"><span>Deployed Link</span></button></a>
           </div>
 
-          //! CREATE A BUTTTON WHICH LEADS TO ALL PROJECTS ON GITHUB
           <hr />
+          
           </>
         </div>
       })}
+          {/* CREATE A BUTTTON WHICH LEADS TO ALL PROJECTS ON GITHUB */}
+          <a href="https://github.com/rajveer-s?tab=repositories" target="_blank"><button class="btn"><span>All Projects</span></button></a>
     </div>
   )
 }
