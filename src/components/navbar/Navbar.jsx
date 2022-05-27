@@ -1,6 +1,7 @@
 import React from 'react'
 import DarkMode from '../darkmode/Darkmode'
 import HeaderEffect from '../typewriting/Typerwriting'
+import { GiHamburgerMenu } from 'react-icons/gi'
 
 const Navbar = () => {
   return (
@@ -9,7 +10,8 @@ const Navbar = () => {
         <div id="headerName">
           <h1>Rajveer Singh</h1>
           </div>
-            <HeaderEffect /> 
+            <HeaderEffect />
+            
             <ul>
                 <a href="/">About</a>
                 <a href="/skills">Skills</a>
@@ -17,6 +19,7 @@ const Navbar = () => {
                 <a href="/contact">Contact</a>
                 <DarkMode />
             </ul>
+            
         </div>
   )
 }

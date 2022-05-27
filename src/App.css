@@ -1,5 +1,5 @@
 /* Google fonts imported  */
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Cinzel&family=Julius+Sans+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Cinzel&family=Julius+Sans+One&display=swap");
 
 .App {
   text-align: center;
@@ -41,18 +41,16 @@
   }
 }
 
-
 /* Navbar css  */
 
 #root {
   text-align: center;
   text-decoration: none;
-
 }
 
 h2 {
   margin: 4rem auto;
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
   font-weight: bolder;
 }
 
@@ -63,13 +61,13 @@ h2 {
 #navbar h1,
 h5 {
   margin-top: 2rem;
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
 }
 
 #navbar ul a {
   text-decoration: none;
   color: grey;
-  font-family: 'Bad Script', 'cursive';
+  font-family: "Bad Script", "cursive";
 }
 
 #navbar a:hover {
@@ -93,6 +91,19 @@ h5 {
 
 /* Navbar css End */
 
+/* Navbar Hamburger menu  */
+
+
+@media only screen and (max-width: 520px) {
+
+  #navbar ul {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+  }
+}
+
+/* Navbar Hamburger menu End  */
 
 /* About me page  */
 
@@ -152,7 +163,6 @@ h5 {
 
 /* skills end  */
 
-
 /* Contact  */
 
 #contact {
@@ -180,10 +190,10 @@ h5 {
 
 @media only screen and (max-width: 558px) {
   #contact {
-    display: block;
+    display: grid;
+    place-items: center;
   }
 }
-
 
 /* Contact end  */
 
@@ -224,12 +234,12 @@ h5 {
   border-radius: calc(var(--curve) * 1px);
   background-color: var(--surface-color);
   transform: translateY(100%);
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .card:hover .card__overlay {
   transform: translateY(0);
-  background-color: rgba(0, 0, 0, .9);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .card__header {
@@ -241,7 +251,7 @@ h5 {
   border-radius: calc(var(--curve) * 1px) 0 0 0;
   background-color: var(--surface-color);
   transform: translateY(-100%);
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .card__arc {
@@ -254,7 +264,7 @@ h5 {
 }
 
 .card__arc path {
-  fill: var(--surface-color)
+  fill: var(--surface-color);
 }
 
 .card:hover .card__header {
@@ -263,12 +273,12 @@ h5 {
 
 .card__title {
   font-size: 1.5em;
-  margin: 0 0 .3em;
+  margin: 0 0 0.3em;
   padding: 10px;
   background: #000;
   color: #fff;
-  opacity: .9;
-  font-family: 'Julius Sans One', sans-serif;
+  opacity: 0.9;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 2rem;
 }
 
@@ -276,8 +286,8 @@ h5 {
   display: block;
   margin: 1em 0;
   font-family: "MockFlowFont";
-  font-size: .8em;
-  color: #D7BDCA;
+  font-size: 0.8em;
+  color: #d7bdca;
 }
 
 .card__status {
@@ -314,7 +324,7 @@ h5 {
   background-color: #222;
   padding: 17px 60px;
   margin: 10px 20px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .btn span {
@@ -330,8 +340,8 @@ h5 {
   height: 490%;
   width: 140%;
   background: #78c7d2;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
@@ -342,7 +352,6 @@ h5 {
 }
 
 /* button styling end  */
-
 
 /* Footer  */
 
@@ -362,7 +371,6 @@ h5 {
 }
 
 /* Footer End */
-
 
 hr {
   width: 80%;
