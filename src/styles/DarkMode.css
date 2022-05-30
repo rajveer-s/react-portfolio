@@ -26,6 +26,14 @@ body.dark {
   --font-weight: 500;
 }
 
+body.light a {
+  color: black;
+}
+
+body.dark a {
+  color: white;
+}
+
 nav {
   padding: 1rem 25%;
   margin: 0 auto;
