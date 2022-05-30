@@ -6,6 +6,7 @@ import About from './pages/about/About';
 import Skills from './pages/skills/Skills';
 import Contact from './pages/contact/Contact';
 import Work from './pages/work/Work';
+import Invalid404Page from './pages/Invalid404Page/Invalid404Page';
 
 function App() {
   return (
@@ -19,8 +20,10 @@ function App() {
             element={<Skills />} />
           <Route path='/contact'
             element={<Contact />} />
-             <Route path='/work'
+          <Route path='/work'
             element={<Work />} />
+          <Route path='*'
+            element={<Invalid404Page />} />
         </Routes>
         <Footer />
       </Router>
