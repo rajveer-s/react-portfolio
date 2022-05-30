@@ -1,7 +1,6 @@
 import React from 'react'
 import DarkMode from '../darkmode/Darkmode'
 import HeaderEffect from '../typewriting/Typerwriting'
-import { GiHamburgerMenu } from 'react-icons/gi'
 
 const Navbar = () => {
   return (
