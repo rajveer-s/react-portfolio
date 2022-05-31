@@ -129,6 +129,10 @@ h5 {
   color: grey;
 }
 
+#resumeDiv a:hover{
+  text-decoration: line-through;
+}
+
 /* About me page End */
 
 /* Skills */
