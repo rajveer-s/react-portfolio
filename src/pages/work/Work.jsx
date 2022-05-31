@@ -12,11 +12,7 @@ const Work = () => {
         return <div className='container'>
           <>
           <ul className="cards">
-            <li>
-              <Link
-                className="card"
-                to={`#`}
-              >
+            <li className="card">
           <h3 className="card__title">{project.name}</h3>
                 <img src={project.img} className="card__image" alt="nature background" />
                 <div className="card__overlay">
@@ -26,7 +22,6 @@ const Work = () => {
                   </div>
                   <h4 className="card__description">{project.desc}</h4>
                 </div>
-              </Link>
             </li>
           </ul>
           <div className="buttonContainer">
