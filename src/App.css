@@ -1,7 +1,5 @@
 /* Google fonts imported  */
-@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Cinzel&family=Julius+Sans+One&display=swap");
-
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Cinzel&family=Julius+Sans+One&family=Rock+Salt&family=Rubik+Glitch&display=swap');.App {
   text-align: center;
 }
 
@@ -125,11 +123,13 @@ h5 {
 }
 
 #resumeDiv a {
-  text-decoration: none;
-  color: grey;
+  text-decoration: underline;
+  font-weight: 500;
 }
 
 #resumeDiv a:hover{
+  content: "Download";
+  font: 1em 'Rock Salt';
   text-decoration: line-through;
 }
 
