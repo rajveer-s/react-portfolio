@@ -15,3 +15,5 @@ const About = () => {
 }
 
 export default About
+
+// About page needs testimonials or mayvbe comments 
