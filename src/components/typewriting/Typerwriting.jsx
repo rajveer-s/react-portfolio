@@ -4,7 +4,7 @@ import { useTypewriter, Cursor} from 'react-simple-typewriter'
 const HeaderEffect = () => {
 
   const {text} = useTypewriter({
-    words: ['Web Developer', 'Critical Thinker', 'Creative', 'Team Player' ],
+    words: ['Web Developer', 'Critical Thinker', 'Creative', 'Team Player', 'Gamer' ],
     loop: true,
     delaySpeed: 2000,
     deleteSpeed: 90,
